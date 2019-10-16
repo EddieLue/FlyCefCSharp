@@ -1,0 +1,44 @@
+﻿<html>
+	<head>
+		<meta charset=utf-8 />
+		<title></title>
+        <style>
+            /** {
+                moz-user-select: -moz-none;
+                -moz-user-select: none;
+                -o-user-select: none;
+                -khtml-user-select: none;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                cursor: default;
+            }*/
+        </style>
+        <link href="hanfcef/hanfcef.css" rel="stylesheet" />
+
+        <script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+        <script src="hanfcef/hanfcef.js"></script>
+
+        <script type="text/javascript">
+            var hahah = { nima:"wock",nidaye:123 };
+            function CallMessage(){
+                alert('fuck');
+                return 'a text';
+            }
+        </script>
+	</head>
+	<body style="background:#ff0;">
+		<div>
+			<h5>hELLO</h5>
+            <p><input type="text" name="name" value=" " /></p>
+            <button id="butClick" style="width:100px; height:50px">cLICK ME</button>
+            <button id="butPopup" style="width:100px; height:50px">tHANK YOU</button>
+            <button id="butExit" style="width:100px; height:50px" >eXIT</button>
+		</div>
+
+        <script type="text/javascript">
+            document.oncontextmenu = function () { return false; };
+            document.onselectstart = function () { return false; };
+        </script>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+html {
+    cursor:default;
+}
+
+ul,li
+{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+
+.text-mune
+{
+    width:100px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    background:#eee;
+    border:1px solid #aaa;
+    z-index:100000;
+    display:none;
+}
+.text-mune li
+{
+    width:100px;
+    height:30px;
+    text-align:center;
+    line-height:30px;
+    float:left;
+    font-size: 14px;
+}
+.text-mune li:hover
+{
+    background:#ccc;
+    
+}
+#Text-Menu .G_MenuButton
+{
+    color:Black;
+    cursor:default;
+    width:100px;
+    height: 30px;
+}
